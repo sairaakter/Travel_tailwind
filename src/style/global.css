@@ -1,0 +1,88 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-2xl: 1400px;
+}
+
+/* DEFAULTS */
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url(../font/Montserrat/static/Montserrat-SemiBold.ttf);
+  src: url(../font/Montserrat/static/Montserrat-Regular.ttf);
+  src: url(../font/Montserrat/static/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: "TradeGothic LT Extended", sans-serif;
+  src: url(../font/tradegothic-lt-extended-bold/static/TradeGothic\ LT\ Extended\ Bold.ttf);
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fafbfc;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .cus_container {
+    max-width: 568px !important;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .cus_container {
+    max-width: 720px !important;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .cus_container {
+    max-width: 960px !important;
+  }
+}
+/* Extra large devices ( extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .cus_container {
+    max-width: 1140px !important;
+  }
+}
+
+/* Extra Extra large devices (large desktops, 1400px and up) */
+/* @media (min-width: 1400px) {
+   
+} */
+
+/* //agulo custom container er jonno */
+/* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) and (max-width: 1550px) {
+  .cus_container {
+    max-width: 1285px !important;
+  }
+}
+@media (min-width: 1551px) and (max-width: 1700px) {
+  .cus_container {
+    max-width: 1420px !important;
+  }
+}
+@media (min-width: 1701px) and (max-width: 1800px) {
+  .cus_container {
+    max-width: 1518px !important;
+  }
+}
+@media (min-width: 1801px) and (max-width: 1850px) {
+  .cus_container {
+    max-width: 1603px !important;
+  }
+}
+@media (min-width: 1851px) {
+  .cus_container {
+    max-width: 1735px !important;
+  }
+}
